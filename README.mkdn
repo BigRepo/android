@@ -1,15 +1,15 @@
-CyanogenMod 10.2 + Halo 2.0
+TwixKat ROM
 ===========
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod+Halo, you'll need to get
+To get started with TwixKat Rom, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the BigRepo trees, use a command like this:
 
-    repo init -u git://github.com/TwixTeam/android.git -b cm-10.2
+    repo init -u git://github.com/TwixTeam/manifest.git -b kitkat
 
 Then to sync up:
 
@@ -17,5 +17,3 @@ Then to sync up:
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
