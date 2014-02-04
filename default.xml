@@ -9,8 +9,6 @@
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
-           sync-c="true"
-           sync-f="true"
            sync-j="4" />
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kitkat" />
