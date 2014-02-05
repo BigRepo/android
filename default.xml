@@ -255,7 +255,7 @@
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" />
 <!--
-  <project path="frameworks/base" name="TwixTeam/android_frameworks_base" />
+  <project path="frameworks/base" name="TwixTeam/platform_frameworks_base" />
 -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
