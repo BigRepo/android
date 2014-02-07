@@ -13,7 +13,7 @@
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kitkat" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="platform/build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -351,9 +351,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-<!--
   <project path="packages/apps/TwixApp" name="TwixTeam/android_packages_apps_TwixApp" />
--->
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
