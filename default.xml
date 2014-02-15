@@ -441,6 +441,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/broadcom/mako" name="TwixTeam/vendor_broadcom_mako" remote="tk" revision="kitkat" />
+  <project path="vendor/lge/mako" name="TwixTeam/android_vendor_lge_mako" remote="tk" revision="kitkat" />
+  <project path="vendor/qcom/mako" name="TwixTeam/vendor_qcom_mako" remote="tk" revision="kitkat" />
 <!--
   <project path="vendor/twixkat" name="TwixTeam/android_vendor_twixkat" remote="tk" revision="kitkat" />
 -->
