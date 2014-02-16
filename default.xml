@@ -7,22 +7,18 @@
   <remote  name="github"
            fetch="git://github.com" />
 
-  <remote  name="AOSPA"
-           fetch="git://github.com"
-           review="gerrit.paranoidandroid.co" />
-
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kitkat" />
   
-  <project path="build" name="TwixTeam/platform_build" remote="github" revision="kitkat" >
+  <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="AOSPA/android_art" remote="AOSPA" revision="kitkat" />
+  <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -441,10 +437,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+<!--
   <project path="vendor/broadcom/mako" name="TwixTeam/vendor_broadcom_mako" remote="github" revision="kitkat" />
   <project path="vendor/lge/mako" name="TwixTeam/vendor_lge_mako" remote="github" revision="kitkat" />
   <project path="vendor/qcom/mako" name="TwixTeam/vendor_qcom_mako" remote="github" revision="kitkat" />
-<!--
   <project path="vendor/twixkat" name="TwixTeam/android_vendor_twixkat" remote="github" revision="kitkat" />
 -->
 </manifest>
