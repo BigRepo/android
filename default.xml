@@ -13,7 +13,7 @@
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kitkat" />
   
-  <project path="build" name="TwixTeam/platform_build" remote="github" revision="kitkat" >
+  <project path="build" name="TwixTeam/platform_build" remote="github" revision="kitkat" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -433,5 +433,4 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/broadcom/mako" name="TwixTeam/vendor_broadcom_mako" remote="github" revision="kitkat" />
   <project path="vendor/lge/mako" name="TwixTeam/vendor_lge_mako" remote="github" revision="kitkat" />
-  <project path="vendor/qcom/mako" name="TwixTeam/vendor_qcom_mako" remote="github" revision="kitkat" />
 </manifest>
