@@ -13,7 +13,7 @@
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kitkat" />
   
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="TwixTeam/platform_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
