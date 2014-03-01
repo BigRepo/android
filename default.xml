@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+  <remote name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
 
   <remote  name="github"
            fetch="git://github.com" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
+           sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kitkat" />
