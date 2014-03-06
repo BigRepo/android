@@ -438,7 +438,9 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/lge/mako" name="TwixTeam/vendor_lge_mako" remote="github" revision="kitkat" />
+<!--
   <project path="vendor/google/gapps" name="TwixTeam/vendor_google_gapps" remote="github" revision="kitkat" />
+-->
   <project path="vendor/twixkat" name="TwixTeam/android_vendor_twixkat" remote="github" revision="kitkat" />
 
 </manifest>
