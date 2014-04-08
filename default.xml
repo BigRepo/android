@@ -20,7 +20,7 @@
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kk-sam" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="android_build" remote="omnirom" revision="android-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
