@@ -8,13 +8,13 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="master"
            remote="aosp"
            sync-c="true"
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kk-hammer" />
 
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -33,11 +33,12 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+<!--  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
+-->
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -49,12 +50,13 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="TwixTeam/device_lge_hammerhead" remote="github" revision="kitkat" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead" name="TwixTeam/device_lge_hammerhead" remote="github" revision="kk-hammer" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="TwixTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
+<!--  <project path="device/lge/mako" name="TwixTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/samsung/i9300" name="TwixTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
   <project path="kernel/samsung/smdk4412" name="TwixTeam/android_kernel_samsung_smdk4412" remote="github" revision="kitkat" />
+-->
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -251,7 +253,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="TwixTeam/platform_frameworks_base" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="TwixTeam/platform_frameworks_base" remote="github" revision="kk-hammer" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -338,7 +340,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="TwixTeam/platform_packages_apps_settings" remote="github" revision="kitkat" />
+  <project path="packages/apps/Settings" name="TwixTeam/platform_packages_apps_settings" remote="github" revision="kk-hammer" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -437,7 +439,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/lge/mako" name="TwixTeam/vendor_lge_mako" remote="github" revision="kitkat" />
+<!--  <project path="vendor/lge/mako" name="TwixTeam/vendor_lge_mako" remote="github" revision="kitkat" />
+-->
   <project path="vendor/lge/hammerhead" name="TwixTeam/android_vendor_lge_hammerhead" remote="github" revision="kitkat" />
   <project path="vendor/twixkat" name="TwixTeam/android_vendor_twixkat" remote="github" revision="kitkat" />
 
