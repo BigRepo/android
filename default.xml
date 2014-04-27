@@ -20,7 +20,7 @@
 
   <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kk-sam" />
 
-  <project path="build" name="platform_build" remote="github" revision="kk-sam" groups="pdk" >
+  <project path="build" name="TwixTeam/platform_build" remote="github" revision="kk-sam" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
