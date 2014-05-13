@@ -1,15 +1,15 @@
-TwixKat ROM
+Hazy ROM
 ===========
 
 Getting Started
 ---------------
 
-To get started with TwixKat Rom, you'll need to get
+To get started with Hazy Rom, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the TwixTeam trees, use a command like this:
+To initialize your local repository using the HazyTeam trees, use a command like this:
 
-    repo init -u git://github.com/TwixTeam/manifest.git -b kitkat
+    repo init -u git://github.com/HazyTeam/manifest.git -b kitkat
 
 Then to sync up:
 
