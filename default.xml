@@ -18,9 +18,9 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="TwixTeam/manifest" remote="github" revision="kk-sam" />
+  <project path="manifest" name="HazyTeam/manifest" remote="github" revision="kk-sam" />
 
-  <project path="build" name="TwixTeam/platform_build" remote="github" revision="kk-sam" groups="pdk" >
+  <project path="build" name="HazyTeam/platform_build" remote="github" revision="kk-sam" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -56,14 +56,14 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
 <!--
-  <project path="device/lge/hammerhead" name="TwixTeam/device_lge_hammerhead" remote="github" revision="kitkat" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead" name="HazyTeam/device_lge_hammerhead" remote="github" revision="kitkat" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="TwixTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
+  <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
 -->
-  <project path="kernel/samsung/smdk4412" name="TwixTeam/android_kernel_samsung_smdk4412" remote="github" revision="kitkat" />
-  <project path="device/samsung/smdk4412-common" name="TwixTeam/android_device_samsung_smdk4412-common" remote="github" revision="kitkat" />
-  <project path="device/samsung/i9300" name="TwixTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
+  <project path="kernel/samsung/smdk4412" name="HazyTeam/android_kernel_samsung_smdk4412" remote="github" revision="kitkat" />
+  <project path="device/samsung/smdk4412-common" name="HazyTeam/android_device_samsung_smdk4412-common" remote="github" revision="kitkat" />
+  <project path="device/samsung/i9300" name="HazyTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
 <!--
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -267,7 +267,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
-  <project path="frameworks/base" name="TwixTeam/platform_frameworks_base" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="HazyTeam/platform_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -286,7 +286,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="TwixTeam/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="HazyTeam/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -327,11 +327,8 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-<!--
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
--->
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -341,14 +338,13 @@
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -358,7 +354,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="TwixTeam/platform_packages_apps_settings" remote="github" revision="kitkat" />
+  <project path="packages/apps/Settings" name="HazyTeam/platform_packages_apps_settings" remote="github" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -377,12 +373,12 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="TwixTeam/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="HazyTeam/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="TwixTeam/platform_packages_services_Telephony" remote="github" revision="kitkat" />
+  <project path="packages/services/Telephony" name="HazyTeam/platform_packages_services_Telephony" remote="github" revision="kitkat" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -461,9 +457,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 <!--
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
-  <project path="vendor/lge/mako" name="TwixTeam/vendor_lge_mako" remote="github" revision="kitkat" />
-  <project path="vendor/lge/hammerhead" name="TwixTeam/android_vendor_lge_hammerhead" remote="github" revision="kitkat" />
+  <project path="vendor/lge/mako" name="HazyTeam/vendor_lge_mako" remote="github" revision="kitkat" />
+  <project path="vendor/lge/hammerhead" name="HazyTeam/android_vendor_lge_hammerhead" remote="github" revision="kitkat" />
 -->
-  <project path="vendor/twixkat" name="TwixTeam/android_vendor_twixkat" remote="github" revision="kitkat" />
+  <project path="vendor/twixkat" name="HazyTeam/android_vendor_twixkat" remote="github" revision="kitkat" />
 
 </manifest>
