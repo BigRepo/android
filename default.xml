@@ -20,7 +20,7 @@
 
   <project path="manifest" name="HazyTeam/manifest" remote="github" revision="kitkat" />
 
-  <project path="build" name="HazyTeam/android_build" remote="github" revision="kitkat" groups="pdk" >
+  <project path="build" name="HazyTeam/platform_build" remote="github" revision="kk-sam" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -56,7 +56,7 @@
   <project path="device/lge/hammerhead" name="HazyTeam/device_lge_hammerhead" remote="github" revision="kitkat" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="kernel/lge/mako" name="HazyTeam/android_kernel_lge_mako" remote="github" revision="kitkat" />
 <!--
   <project path="device/samsung/i9300" name="HazyTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
   <project path="kernel/samsung/smdk4412" name="HazyTeam/android_kernel_samsung_smdk4412" remote="github" revision="kitkat" />
@@ -269,7 +269,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="frameworks/native" name="HazyTeam/android_frameworks_native" remote="github" revision="kitkat" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
