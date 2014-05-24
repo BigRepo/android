@@ -54,7 +54,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="HazyTeam/device_lge_hammerhead" remote="github" revision="kitkat" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+  <project path="kernel/lge/hammerhead" name="HazyTeam/android_kernel_lge_hammerhead" remote="github" revision="kitkat" />
   <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
   <project path="kernel/lge/mako" name="HazyTeam/android_kernel_lge_mako" remote="github" revision="kitkat" />
 <!--
