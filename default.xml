@@ -57,6 +57,8 @@
   <project path="kernel/lge/hammerhead" name="HazyTeam/android_kernel_lge_hammerhead" remote="github" revision="kitkat" />
   <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
   <project path="kernel/lge/mako" name="HazyTeam/android_kernel_lge_mako" remote="github" revision="kitkat" />
+  <project path="device/asus/flo" name="HazyTeam/device_asus_flo" remote="github" revision="kitkat" groups="device,flo" />
+  <project path="kernel/asus/flo" name="HazyTeam/android_kernel_asus_flo" remote="github" revision="kitkat" />
 <!--
   <project path="device/samsung/i9300" name="HazyTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
   <project path="kernel/samsung/smdk4412" name="HazyTeam/android_kernel_samsung_smdk4412" remote="github" revision="kitkat" />
