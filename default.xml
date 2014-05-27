@@ -20,7 +20,7 @@
 
   <project path="manifest" name="HazyTeam/manifest" remote="github" revision="kitkat" />
 
-  <project path="build" name="HazyTeam/android_build" remote="github" revision="kitkat" groups="pdk" >
+  <project path="build" name="HazyTeam/platform_build" remote="github" revision="kk-sam" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
