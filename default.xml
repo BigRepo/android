@@ -52,17 +52,22 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="HazyTeam/device_lge_hammerhead" remote="github" revision="kitkat" groups="device,hammerhead" />
+  <!--
   <project path="kernel/lge/hammerhead" name="HazyTeam/android_kernel_lge_hammerhead" remote="github" revision="kitkat" />
+  -->
   <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
+  <!--
   <project path="kernel/lge/mako" name="HazyTeam/android_kernel_lge_mako" remote="github" revision="kitkat" />
+  -->
   <project path="device/asus/flo" name="HazyTeam/device_asus_flo" remote="github" revision="kitkat" groups="device,flo" />
+  <!--
   <project path="kernel/asus/flo" name="HazyTeam/kernel_asus_flo" remote="github" revision="kitkat" />
-<!--
   <project path="device/samsung/i9300" name="HazyTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
   <project path="kernel/samsung/smdk4412" name="HazyTeam/android_kernel_samsung_smdk4412" remote="github" revision="kitkat" />
--->
+  -->
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
+  <project path="device/samsung/manta" name="HazyTeam/android_device_samsung_manta" remote="github" revision="kitkat" groups="device,manta" />
+  <project path="device/samsung/maguro" name="HazyTeam/android_device_samsung_maguro" remote="github" revision="kitkat" groups="device,maguro" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -284,7 +289,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="HazyTeam/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -449,9 +454,11 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <!--
   <project path="vendor/lge/mako" name="HazyTeam/vendor_lge_mako" remote="github" revision="kitkat" />
   <project path="vendor/asus/flo" name="HazyTeam/vendor_asus_flo" remote="github" revision="kitkat" />
   <project path="vendor/lge/hammerhead" name="HazyTeam/android_vendor_lge_hammerhead" remote="github" revision="kitkat" />
+  -->
   <project path="vendor/twixkat" name="HazyTeam/android_vendor_twixkat" remote="github" revision="kitkat" />
 
 </manifest>
