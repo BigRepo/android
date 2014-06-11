@@ -59,7 +59,9 @@
   <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
   <project path="device/asus/flo" name="HazyTeam/device_asus_flo" remote="github" revision="kitkat" groups="device,flo" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <!--
   <project path="device/samsung/manta" name="HazyTeam/android_device_samsung_manta" remote="github" revision="kitkat" groups="device,manta" />
+  -->
   <project path="device/samsung/maguro" name="HazyTeam/android_device_samsung_maguro" remote="github" revision="kitkat" groups="device,maguro" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
