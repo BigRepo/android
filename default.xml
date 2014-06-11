@@ -61,7 +61,7 @@
   <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
 -->
-  <project path="kernel/samsung/smdk4412" name="HazyTeam/android_kernel_samsung_smdk4412" remote="github" revision="kitkat" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omnirom" revision="android-4.4" />
   <project path="device/samsung/smdk4412-common" name="HazyTeam/android_device_samsung_smdk4412-common" remote="github" revision="kitkat" />
   <project path="device/samsung/i9300" name="HazyTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -163,7 +163,7 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-4.4" groups="pdk" />
+  <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-4.4" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
   <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-4.4" />
