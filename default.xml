@@ -55,10 +55,12 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-<!--
   <project path="device/lge/hammerhead" name="HazyTeam/device_lge_hammerhead" remote="github" revision="kitkat" groups="device,hammerhead" />
+<!--
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+-->
   <project path="device/lge/mako" name="HazyTeam/device_lge_mako" remote="github" revision="kitkat" groups="device,mako" />
+<!--
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
 -->
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omnirom" revision="android-4.4" />
