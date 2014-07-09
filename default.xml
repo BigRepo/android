@@ -63,7 +63,6 @@
 <!--
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
 -->
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omnirom" revision="android-4.4" />
   <project path="device/samsung/smdk4412-common" name="HazyTeam/android_device_samsung_smdk4412-common" remote="github" revision="kitkat" />
   <project path="device/samsung/i9300" name="HazyTeam/android_device_samsung_i9300" remote="github" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
