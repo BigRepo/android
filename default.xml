@@ -69,6 +69,7 @@
 <!--
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
 -->
+  <project path="device/sony/togari" name="HazyTeam/android_device_sony_togari" remote="github" revision="android-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
