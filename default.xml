@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
@@ -10,10 +10,6 @@
 
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />
-
-  <remote  name="github"
-           review="review.cyanogenmod.org"
-           fetch=".." />
 
   <default revision="refs/tags/android-4.4.4_r2.0.1"
            remote="aosp"
