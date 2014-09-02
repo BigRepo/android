@@ -51,6 +51,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" remote="github" revision="refs/heads/shipping/cm-11.0" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" remote="github" revision="refs/heads/shipping/cm-11.0" />
+  <project path="device/oneplus/bacon" name="HazyTeam/android_device_oneplus_bacon" remote="github" revision="kitkat" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" remote="github" revision="refs/heads/shipping/cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" remote="github" revision="refs/heads/shipping/cm-11.0" />
